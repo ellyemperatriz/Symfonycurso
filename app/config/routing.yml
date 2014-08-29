@@ -1,0 +1,5 @@
+elly_work:
+    resource: "@EllyWorkBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
