@@ -1,0 +1,15 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>Registrar Practica</h1>
+
+    {{ form(form) }}
+
+        <ul class="record_actions">
+    <li>
+        <a href="{{ path('practicascrud') }}">
+            Volver
+        </a>
+    </li>
+</ul>
+{% endblock %}
